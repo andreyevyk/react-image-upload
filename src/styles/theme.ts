@@ -26,6 +26,11 @@ export const theme = extendTheme({
         fontWeight: 'normal',
       },
     },
+    Modal: {
+      baseStyle: {
+        bg: 'pGray.900',
+      },
+    },
     Button: {
       defaultProps: {
         colorScheme: 'orange',
